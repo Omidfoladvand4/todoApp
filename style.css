@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(40, 5, 73);
+}
+h1 {
+  color: aliceblue;
+}
+.addTdo {
+  width: 80%;
+  height: 9rem;
+}
+.addTdo label {
+  margin: 0 1rem;
+  color: aliceblue;
+}
+.addTdo #input {
+  width: 100%;
+  height: 2rem;
+  margin: 1rem 1.5rem;
+  padding: 0 0.5rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  background-color: gray;
+  color: aliceblue;
+}
+.addTdo #input:focus {
+  background-color: rgba(0, 0, 255, 0.215);
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 255, 0.215);
+}
+p {
+  color: wheat;
+}
+.btns {
+  margin: 0 1.5rem;
+}
+.btns .addList {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  background-color: lawngreen;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.btns .clearList {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  background-color: lightcoral;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.todoContainer {
+  width: 80%;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.todoItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  margin: 0.5rem 0px;
+}
+.todoItem p {
+  font-size: 1.3rem;
+  font-family: cursive;
+  color: chartreuse;
+}
+.todoItem .complete {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  background-color: green;
+  color: antiquewhite;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.btn {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.todoItem .delete {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  background-color: red;
+  color: antiquewhite;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.todoItem .rename {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  color: antiquewhite;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.todoItem .delete:hover {
+  background-color: antiquewhite;
+  color: red;
+}
+.todoItem .complete:hover {
+  background-color: antiquewhite;
+  color: green;
+}
