@@ -77,7 +77,7 @@ p {
 }
 .todoItem p {
   font-size: 1.3rem;
-  font-family: cursive;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: chartreuse;
 }
 .todoItem .complete {
